@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transparent = () => {
     return (
-        <div className='space-y-7 text-center bg-white py-17'>
+        <div className='space-y-7 text-center bg-white py-17' id='pricing'>
             <h2 className='text-5xl font-bold '>Simple, Transparent Pricing</h2>
             <p className='opacity-80'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
            <div className='container mx-auto flex justify-center '>

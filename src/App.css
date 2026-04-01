@@ -3,4 +3,5 @@
 @plugin "daisyui";
 *{
     font-family: "Manrope", sans-serif;
+    scroll-behavior: smooth;
 }

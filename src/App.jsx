@@ -28,7 +28,7 @@ function App() {
     <Hero></Hero> 
     <Activeuser></Activeuser>
     {/* name of each tab group should be unique */}
-    <div className='text-center space-y-4 mb-5' >
+    <div className='text-center space-y-4 mb-5' id='products'>
       <h2 className='font-semibold  text-5xl'>
         Premium Digital Tools
         </h2>
