@@ -9,7 +9,7 @@ const Transparent = () => {
 
              <div className='grid md:grid-cols-2 lg:grid-cols-3  gap-5' >
 
-                  <div className="card  w-96   bg-[#F2F2F2] shadow-sm  text-left  rounded-3xl  ">
+                  <div className="card w-92 lg:w-96   bg-[#F2F2F2] shadow-sm  text-left  rounded-3xl  ">
                     <div className="card-body">
                        
                         
@@ -47,7 +47,7 @@ const Transparent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-sm relative text-left bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">
+                <div className="card w-92 lg:w-96 bg-base-100 shadow-sm relative text-left bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">
                     <div className="card-body">
                         <span className="badge badge-xs -top-3 right-36 absolute badge-warning bg-[#FEF3C6] border-none p-3 rounded-full text-[#BB4D00]">Most Popular</span>
                         <div className="flex justify-between">
@@ -91,7 +91,7 @@ const Transparent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-[#F2F2F2] shadow-sm rounded-3xl text-left bg-linear-to-r  ">
+                <div className="card w-92 lg:w-96 bg-[#F2F2F2] shadow-sm rounded-3xl text-left bg-linear-to-r  ">
                     <div className="card-body">
                        
                         <div className="flex justify-between">
