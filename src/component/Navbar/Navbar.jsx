@@ -32,8 +32,8 @@ const Navbar = ({carts}) => {
                 </ul>
             </div>
             <div className="navbar-end gap-5 relative">
-                <LuShoppingCart  />
-                   <span className='absolute top-2 right-44 bg-red-500 rounded-full font-light px-1 text-[8px] text-white'>{carts.length}</span>
+                <LuShoppingCart className='text-2xl' />
+                   <span className='absolute top-0.5 right-44 bg-red-500 rounded-full font-light px-1.5 text-[12px] text-white'>{carts.length}</span>
               
                 <h2>Login </h2>
                 <a className="btn bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white  rounded-full">Get Started</a>
