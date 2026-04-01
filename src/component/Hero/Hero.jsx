@@ -5,7 +5,7 @@ import icon from '../../assets/icon.png'
 import Play from '../../assets/Play.png'
 const Hero = () => {
   return (
-    <div className="hero  min-h-screen container mx-auto">
+    <div className="hero  mb-4 lg:my-50 container mx-auto ">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={banner}

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-friendly resumes in minutes with AI assistance and beautiful templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "LinkedIn profile import"
+    ],
+    "icon": "https://i.ibb.co.com/vCNrFgbQ/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Cover Letter AI",
+    "description": "Generate personalized, highly effective cover letters tailored to any job description.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI-powered writing",
+      "Job description matching",
+      "Multiple tone options",
+      "Unlimited generations",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/Wv48Pq54/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Pro Bundle",
+    "description": "Everything you need to land your dream job: Resume, Cover Letter, LinkedIn optimization & Interview prep.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Full Resume Builder",
+      "Unlimited Cover Letters",
+      "LinkedIn Profile Optimizer",
+      "Interview Question Bank",
+      "1-year updates"
+    ],
+    "icon": "https://i.ibb.co.com/MkBh4Vy6/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Profile Booster",
+    "description": "Optimize your LinkedIn profile with AI to attract recruiters and increase profile views.",
+    "price": 19,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "",
+    "features": [
+      "AI headline & summary",
+      "Experience optimization",
+      "Skills & endorsement strategy",
+      "Profile completeness score",
+      "Recruiter search keywords"
+    ],
+    "icon": "https://i.ibb.co.com/WW8HKDtV/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Ace",
+    "description": "Practice with AI-powered mock interviews tailored to your target role and get instant feedback.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Role-specific questions",
+      "Real-time AI feedback",
+      "Behavioral & technical interviews",
+      "Performance analytics",
+      "Unlimited practice sessions"
+    ],
+    "icon": "https://i.ibb.co.com/VphXjXXZ/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Job Search Accelerator",
+    "description": "Find and apply to 10x more relevant jobs with smart matching and automated tracking.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Smart job matching",
+      "Application tracker",
+      "Auto-fill applications",
+      "Salary insights",
+      "Daily job alerts"
+    ],
+    "icon": "https://i.ibb.co.com/G4Ygw602/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Portfolio Builder",
+    "description": "Build a stunning professional portfolio website in minutes. Perfect for freelancers and creatives.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "",
+    "features": [
+      "Drag & drop builder",
+      "50+ beautiful themes",
+      "Mobile responsive",
+      "SEO optimized",
+      "Domain connection"
+    ],
+    "icon": "https://i.ibb.co.com/Wv48Pq54/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "Executive Career Pack",
+    "description": "Premium package designed for senior professionals and C-level executives.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Executive resume writing",
+      "Board-ready cover letters",
+      "LinkedIn executive optimization",
+      "Personal branding strategy",
+      "Priority AI support"
+    ],
+    "icon": "https://i.ibb.co.com/XZ5NtwrV/camera-8775444-1.png"
+  }
+]

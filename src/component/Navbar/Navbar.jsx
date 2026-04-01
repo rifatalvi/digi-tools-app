@@ -1,9 +1,9 @@
 import React from 'react';
 import { LuShoppingCart } from 'react-icons/lu';
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm lg:px-24">
+        <div className="navbar bg-base-100 shadow-sm lg:px-24 sticky top-0 z-50">
             <div className="navbar-start  ">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end gap-5 relative">
                 <LuShoppingCart  />
-                   <span className='absolute top-2 right-44 bg-red-500 rounded-full font-light px-1 text-[8px] text-white'>0</span>
+                   <span className='absolute top-2 right-44 bg-red-500 rounded-full font-light px-1 text-[8px] text-white'>{carts.length}</span>
               
                 <h2>Login </h2>
                 <a className="btn bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white  rounded-full">Get Started</a>
