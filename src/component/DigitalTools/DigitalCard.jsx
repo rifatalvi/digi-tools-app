@@ -19,7 +19,9 @@ const DigitalCard = ({tools,carts,setCarts}) => {
     return (
         <div className="card  bg-base-100 shadow-sm relative">
                     <div className="card-body">
-                        <img src={tools.icon} className='h-13 w-13 object-contain border-1 border-gray-200 rounded-full p-1' alt={tools.tagType} />
+                        <div className='border-1 h-13 w-13 border-gray-200 rounded-full p-1 flex justify-center items-center'>
+                            <img src={tools.icon} className=' object-contain ' alt={tools.tagType} />
+                        </div>
                         <span className={`badge badge-soft ${tools.tag ==="New"? "badge-accent" : tools.tag ==="Popular" ? " badge-primary" :"badge-warning" } absolute right-3 top-2`}>{tools.
                             tag}</span>
                         <div className="flex justify-between">
