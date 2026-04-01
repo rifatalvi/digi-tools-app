@@ -23,7 +23,7 @@ const Navbar = ({carts}) => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Products</a></li>
+                    <li><a href='#products'>Products</a></li>
                     <li><a>Features</a></li>
                     <li><a>Pricing</a></li>
                     <li><a>Testimonials</a></li>

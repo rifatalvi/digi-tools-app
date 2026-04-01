@@ -71,7 +71,7 @@ const Footer = () => {
   </nav>
 </footer>
 <hr className=' border border-b-blue-50 container mx-auto' />
- <div className='flex flex-col lg:flex-row justify-between text-white container mx-auto py-6 opacity-60 px-4'>
+ <div className='flex flex-col-reverse lg:flex-row justify-between text-white container mx-auto py-6 opacity-60 px-4'>
     <p>© 2026 Digitools. All rights reserved.</p>
     <div className='flex gap-3 lg:gap-14 flex-col lg:flex-row'>
         <p>Privacy Policy           </p>
