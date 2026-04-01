@@ -8,11 +8,11 @@ const DigitalCard = ({tools,carts,setCarts}) => {
         setBuy(true)
         const isAddad = carts.find(c => c.id === tools.id)
         if(isAddad){
-             toast.warning("Already available in cart!")
+             toast.warning(`${tools.name} is already added in Cart !`)
              return
         }
         setCarts([...carts,tools])
-         toast.success("Cart add successful !")
+         toast.success(`${tools.name} is add Cart !`)
     }
     
 

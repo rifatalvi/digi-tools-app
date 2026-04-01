@@ -6,12 +6,13 @@ const Cart = ({carts,setCarts}) => {
     const totalCount = carts.reduce((sum,cart)=> sum + cart.price ,0)
     const paymentBtn =()=>{
         setCarts([])
-         toast.success("Payment Successful")
+         toast.success(`Payment Done Total ... $${totalCount}`)
+         
     }
     const cartDelete = (cart)=>{
        const filters = carts.filter(c => c.id !== cart.id)
         setCarts(filters)
-         toast.error("Item Delete....!")
+         toast.error(`${cart.name} was Removed`)
     }
     return (
         <div className='container mx-auto border-1 border-gray-300 rounded-2xl p-6 space-y-6' id='cart'>
