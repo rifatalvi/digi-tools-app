@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal text-white p-10 bg-[#101727]">
+        <div className=' bg-[#101727]'>
+            <footer className="footer sm:footer-horizontal text-white p-10 container mx-auto">
   <aside>
      <h2 className='text-4xl font-bold'>DigiTools</h2>
     <p>
@@ -69,6 +70,16 @@ const Footer = () => {
     </div>
   </nav>
 </footer>
+<hr className=' border border-b-blue-50 container mx-auto' />
+ <div className='flex flex-col lg:flex-row justify-between text-white container mx-auto py-6 opacity-60 px-4'>
+    <p>© 2026 Digitools. All rights reserved.</p>
+    <div className='flex gap-3 lg:gap-14 flex-col lg:flex-row'>
+        <p>Privacy Policy           </p>
+        <p>Terms of Service       </p>
+        <p>    Cookies</p>
+    </div>
+ </div>
+        </div>
     );
 };
 

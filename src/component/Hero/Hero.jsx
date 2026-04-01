@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={banner}
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="lg:max-w-sm rounded-lg shadow-2xl"
         />
         <div>
       <div className='bg-[#E1E7FF] rounded-full w-fit'>

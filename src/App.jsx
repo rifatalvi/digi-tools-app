@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify'
 import Activeuser from './component/Activeuser/Activeuser'
 import Footer from './component/Footer/Footer'
 import Optional from './component/Footer/Optional'
+import Steps from './component/Extra/Steps'
 const response = async() =>{
   const res = await fetch('/data.json')
   return res.json()
@@ -41,6 +42,7 @@ function App() {
     :
     <Cart setCarts={setCarts} carts={carts}></Cart>
     }
+    <Steps></Steps>
 <Optional></Optional>
   <Footer></Footer>
 
