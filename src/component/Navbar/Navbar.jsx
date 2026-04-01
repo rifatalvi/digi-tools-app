@@ -32,11 +32,11 @@ const Navbar = ({carts}) => {
                 </ul>
             </div>
             <div className="navbar-end gap-5 relative">
-                <LuShoppingCart className='text-2xl' />
-                   <span className='absolute top-0.5 right-44 bg-red-500 rounded-full font-light px-1.5 text-[12px] text-white'>{carts.length}</span>
+               <a href="#cart">  <LuShoppingCart className='text-2xl' /></a>
+                   <span className='absolute -top-2 lg:top-0.5 right-13 lg:right-44 bg-red-500 rounded-full font-light px-1.5 text-[12px] text-white'>{carts.length}</span>
               
                 <h2>Login </h2>
-                <a className="btn bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white  rounded-full" href='#products'>Get Started</a>
+                <a className="btn bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white  rounded-full hidden lg:block" href='#products'>Get Started</a>
             </div>
         </div>
     );

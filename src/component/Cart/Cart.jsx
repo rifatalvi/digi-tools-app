@@ -14,7 +14,7 @@ const Cart = ({carts,setCarts}) => {
          toast.error("Item Delete....!")
     }
     return (
-        <div className='container mx-auto border-1 border-gray-300 rounded-2xl p-6 space-y-6'>
+        <div className='container mx-auto border-1 border-gray-300 rounded-2xl p-6 space-y-6' id='cart'>
             <h2 className='font-bold text-3xl'>Your Cart</h2>
                {
                 carts.length ===0 ? ( <div className='flex flex-col justify-center items-center py-24 '>
