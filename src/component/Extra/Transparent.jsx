@@ -5,11 +5,11 @@ const Transparent = () => {
         <div className='space-y-7 text-center bg-white py-17'>
             <h2 className='text-5xl font-bold '>Simple, Transparent Pricing</h2>
             <p className='opacity-80'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-           <div className='container mx-auto'>
+           <div className='container mx-auto flex justify-center '>
 
-             <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-5' >
+             <div className='grid md:grid-cols-2 lg:grid-cols-3  gap-5' >
 
-                  <div className="card  max-w-96   bg-[#F2F2F2] shadow-sm  text-left  rounded-3xl  ">
+                  <div className="card  w-96   bg-[#F2F2F2] shadow-sm  text-left  rounded-3xl  ">
                     <div className="card-body">
                        
                         
@@ -18,7 +18,8 @@ const Transparent = () => {
                             
                         
                          <p className='opacity-70'>Perfect for getting started</p>
-                        <span className="text-xl">$ <span className='text-3xl'>0</span> /Month</span>
+                        <div className=' mb-13'>
+                            <span className="text-xl">$ <span className='text-3xl'>0</span> /Month</span>
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -40,14 +41,15 @@ const Transparent = () => {
                            
                            
                         </ul>
+                        </div>
                         <div className="mt-6">
                             <button className="btn  rounded-full bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white btn-block ">Subscribe</button>
                         </div>
                     </div>
                 </div>
-                <div className="card max-w-96 bg-base-100 shadow-sm relative text-left bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">
+                <div className="card w-96 bg-base-100 shadow-sm relative text-left bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">
                     <div className="card-body">
-                        <span className="badge badge-xs -top-3 right-17 md:right-29 lg:right-36 absolute badge-warning">Most Popular</span>
+                        <span className="badge badge-xs -top-3 right-36 absolute badge-warning bg-[#FEF3C6] border-none p-3 rounded-full text-[#BB4D00]">Most Popular</span>
                         <div className="flex justify-between">
                             <h2 className="text-xl font-bold">Pro</h2>
                            
@@ -89,7 +91,7 @@ const Transparent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card max-w-96 bg-[#F2F2F2] shadow-sm rounded-3xl text-left bg-linear-to-r  ">
+                <div className="card w-96 bg-[#F2F2F2] shadow-sm rounded-3xl text-left bg-linear-to-r  ">
                     <div className="card-body">
                        
                         <div className="flex justify-between">

@@ -23,7 +23,7 @@ const Steps = () => {
                     </div>
                     <h2 className='text-2xl font-bold'>Choose Products</h2>
                     <p className='opacity-65'>Browse our catalog and select the tools <br />that fit your needs.</p>
-                    <p className='py-1 px-2 top-3 right-3 rounded-full text-white absolute bg-linear-to-r  from-[#4F39F6] to-[#9514FA]  mb-14'>01</p>
+                    <p className='py-1 px-2 top-3 right-3 rounded-full text-white absolute bg-linear-to-r  from-[#4F39F6] to-[#9514FA]  mb-14'>02</p>
                 </div> 
                 <div className='space-y-7 relative bg-white shadow-xl p-14 rounded-2xl flex flex-col items-center'>
                     <div className='bg-[#7e8a948a]  p-4 rounded-full h-26 w-26 flex justify-center'>
@@ -31,7 +31,7 @@ const Steps = () => {
                     </div>
                     <h2 className='text-2xl font-bold'>Start Creating</h2>
                     <p className='opacity-65'>Download and start using your premium <br /> tools immediately.</p>
-                    <p className='py-1 px-2 top-3 right-3 rounded-full text-white absolute bg-linear-to-r  from-[#4F39F6] to-[#9514FA]  mb-14'>01</p>
+                    <p className='py-1 px-2 top-3 right-3 rounded-full text-white absolute bg-linear-to-r  from-[#4F39F6] to-[#9514FA]  mb-14'>03</p>
                 </div> 
               
                 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaCheck } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
 const DigitalCard = ({tools,carts,setCarts}) => {
@@ -42,7 +43,7 @@ const DigitalCard = ({tools,carts,setCarts}) => {
 
                         </ul>
                         <div className="mt-6">
-                            <button onClick={buyNowBtn} className={`btn btn-primary border-none ${isBuy ? "bg-green-500": "bg-linear-to-r  from-[#4F39F6] to-[#9514FA]"} rounded-full btn-block  `}>{isBuy ? " Added to Cart!": "Buy Now"}</button>
+                            <button onClick={buyNowBtn} className={`btn btn-primary border-none ${isBuy ? "bg-green-500": "bg-linear-to-r  from-[#4F39F6] to-[#9514FA]"} rounded-full btn-block  `}>{isBuy && <FaCheck />}{isBuy ? " Added to Cart!": "Buy Now"}</button>
                         </div>
                     </div>
                 </div>
