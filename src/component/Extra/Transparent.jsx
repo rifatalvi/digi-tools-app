@@ -47,7 +47,7 @@ const Transparent = () => {
                 </div>
                 <div className="card max-w-96 bg-base-100 shadow-sm relative text-left bg-linear-to-r  from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">
                     <div className="card-body">
-                        <span className="badge badge-xs -top-3 right-17 md:right-29 lg:right-33 absolute badge-warning">Most Popular</span>
+                        <span className="badge badge-xs -top-3 right-17 md:right-29 lg:right-36 absolute badge-warning">Most Popular</span>
                         <div className="flex justify-between">
                             <h2 className="text-xl font-bold">Pro</h2>
                            

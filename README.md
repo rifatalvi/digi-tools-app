@@ -1,16 +1,22 @@
-# React + Vite
+# 🛠️ Digi-Tools App
+**A versatile collection of essential digital utilities for everyday tasks.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Description
+**Digi-Tools App** holo ekti modern web application jekhane dorkari sob digital tools ekshathe paoya jabe. User-der daily workflow-ke aro shohoj korar jonno eiti banano hoyeche. Minimalist design ebong fast performance-er karone eiti khub e user-friendly.
 
-## React Compiler
+## 🚀 Key Features
+* **All-in-One Utility Hub:** Onek gulo proyojoniyo tool ek e platform-e paoya jabe, ja bar bar tab switch korar jhamela komay.
+* **Modern Responsive UI:** Tailwind CSS diye banano, tai desktop hok ba mobile—sob jaygay smoothly cholbe.
+* **Lightning Fast & Interactive:** React base technology use korar karone application-ti khub e fast ebong interactive response dey.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technology Stack
+Project-ti niche deoya modern technologies diye toiri kora hoyeche:
 
-## Expanding the ESLint configuration
+* **Frontend Framework:** React.js / Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React / FontAwesome
+* **Deployment:** Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
